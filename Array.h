@@ -11,6 +11,7 @@ public:
     bool DeleteAt(int index);
     bool UpdateAt(int index, int new_value);
     void Print() const;
+    void Sort();
 
     int Size() const;
     int Capacity() const;
